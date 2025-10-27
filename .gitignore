@@ -1,0 +1,12 @@
+# Environment variables
+.env
+client/.env
+server/.env
+
+# Node modules (should already be ignored, but good practice)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build folders
+client/build/
