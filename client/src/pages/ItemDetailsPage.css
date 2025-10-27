@@ -1,0 +1,37 @@
+.item-details-wrapper {
+  background-color: #f8f9fa;
+}
+
+.item-details-card, .offers-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.item-image {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.item-meta {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.item-specs {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.offer-item {
+  border: 1px solid #e9ecef;
+  box-shadow: none;
+}
+
+.mb-3 .form-control {
+  width: 100%; /* Force the input to be 100% of its parent's width */
+  box-sizing: border-box; /* Ensures padding and border are included in the width, not added on top */
+}

@@ -1,0 +1,35 @@
+/* src/pages/AuthForm.css */
+
+.auth-wrapper {
+  display: flex;
+  min-height: 100%; /* Ensures it takes up the available vertical space from the main layout */
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.auth-card {
+  padding: 2.5rem;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e9ecef;
+}
+
+.auth-card .form-label {
+  font-weight: 500;
+}
+
+.auth-card .btn-primary {
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 0.75rem;
+}
+
+.auth-card form {
+  text-align: left;
+}
+
+.auth-card .form-control {
+  width: 100%; /* Force the input to be 100% of its parent's width */
+  box-sizing: border-box; /* Ensures padding and border are included in the width, not added on top */
+}

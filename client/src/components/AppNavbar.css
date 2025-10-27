@@ -1,0 +1,67 @@
+/* src/components/Navbar.css */
+
+/* --- Main Navbar Container --- */
+/* We target the .navbar class provided by Bootstrap */
+.navbar {
+  background-color: #dcc3f2 !important; /* A light lavender/pink, similar to your design */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* --- Brand/Logo Styling --- */
+.navbar-brand span {
+  font-size: 1.5rem; /* Make the portal name larger */
+  color: #3D3B3B;   /* A dark grey for the text */
+}
+
+/* --- Navigation Links Styling --- */
+.nav-link {
+  color: #595656;    /* A softer grey for the links */
+  font-weight: 500; /* Makes the font a bit bolder */
+  margin: 0 0.5rem; /* Adds some space between links */
+  transition: color 0.2s ease-in-out; /* Smooth color change on hover */
+}
+
+.nav-link:hover {
+  color: #000000; /* Darken the link color on hover */
+}
+
+/* --- Search Bar Styling --- */
+.form-control { /* This targets the search input field */
+  border-radius: 25px !important;      /* Creates the pill shape */
+  border: 1px solid #a08dad !important; /* A border color that matches the theme */
+  background-color: #F7F3F9 !important; /* A very light background for the input */
+  padding-left: 1.5rem; /* Add some space for a search icon if you want one later */
+  width: 400px;
+}
+
+/* --- Custom Button Styling --- */
+/* We create custom classes to override Bootstrap's default button styles */
+.log-in-btn, .sign-up-btn {
+  border-radius: 20px !important;  /* Rounded corners */
+  font-weight: bold !important;
+  padding: 0.4rem 1.5rem !important; /* Custom padding for size */
+  border: 2px solid #555252 !important;
+  transition: all 0.2s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.log-in-btn {
+  background-color: #FBE29D !important; /* The yellow from your design */
+  color: #3D3B3B !important;
+}
+
+.sign-up-btn {
+  background-color: #F7C684 !important; /* The orange/tan from your design */
+  color: #3D3B3B !important;
+}
+
+/* Hover effects to make buttons feel interactive */
+.log-in-btn:hover {
+  transform: translateY(-2px); /* Lifts the button slightly */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.sign-up-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}

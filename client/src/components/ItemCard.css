@@ -1,0 +1,54 @@
+/* src/components/ItemCard.css */
+
+/* --- Main Card Container --- */
+/* We target the .card class from Bootstrap */
+.item-card {
+  border: none; /* Remove the default border */
+  border-radius: 15px; /* Add modern, rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* A soft shadow for a "floating" effect */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  height: 100%; /* Ensures all cards in a row are the same height */
+}
+
+/* --- Card Hover Effect --- */
+.item-card:hover {
+  transform: translateY(-5px); /* Lifts the card up slightly on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); /* Make the shadow more pronounced */
+}
+
+/* --- Card Image --- */
+.card-img-top {
+  border-top-left-radius: 15px; /* Round the top corners of the image to match the card */
+  border-top-right-radius: 15px;
+  max-height: 180px; /* Set a max height for uniform image sizes */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+/* --- Card Title --- */
+.card-title {
+  font-weight: 600; /* Make the title a bit bolder */
+  color: #343a40; /* A dark, standard color for titles */
+}
+
+/* --- Item Meta (Category & Budget) --- */
+/* A custom class for the line with category/budget details */
+.item-meta {
+  font-size: 0.85rem; /* Make the text slightly smaller */
+  color: #6c757d; /* A muted grey color */
+  margin-bottom: 0.75rem;
+}
+
+/* --- View Details Button --- */
+/* A custom class for the action button */
+.view-details-btn {
+  background-color: #0d6efd; /* Bootstrap's primary blue */
+  border: none;
+  border-radius: 20px;
+  font-weight: 500;
+  padding: 0.4rem 1.2rem;
+  transition: background-color 0.2s ease;
+}
+
+.view-details-btn:hover {
+  background-color: #0b5ed7; /* A darker blue for hover */
+}

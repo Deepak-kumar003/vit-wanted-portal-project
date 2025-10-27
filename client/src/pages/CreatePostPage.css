@@ -1,0 +1,67 @@
+/* src/pages/CreatePostPage.css */
+
+.create-post-wrapper {
+  padding: 40px 0;
+  background-color: #f0f2f5; /* Match the global background color */
+  min-height: 100%;
+}
+
+/* Make the card style match the Auth card */
+.create-post-card {
+  background-color: #ffffff;
+  padding: 2.5rem; /* Consistent padding */
+  border-radius: 20px; /* Consistent border radius */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Consistent shadow */
+  border: 1px solid #e9ecef;
+}
+
+/* Fix the text alignment for the form, just like we did for the auth pages */
+.create-post-card form {
+  text-align: left;
+}
+
+/* Style the main title and subtitle */
+.create-post-card h2 {
+  font-weight: 600;
+}
+.create-post-card .page-subtitle {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* Make form labels consistent */
+.create-post-card .form-label {
+  font-weight: 500;
+  color: #343a40;
+}
+
+/* Make all input fields and selects look like the auth page inputs */
+.create-post-card .form-control,
+.create-post-card .form-select {
+  border-radius: 12px; /* Nicer rounded corners */
+  padding: 0.8rem 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.create-post-card .form-control:focus,
+.create-post-card .form-select:focus {
+  background-color: #ffffff;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* Style the submit button to match the "Sign Up" button */
+.create-post-card .btn-primary {
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 0.8rem;
+  background-color: #0d6efd;
+  border: none;
+}
+
+.mb-4 .form-control {
+  width: 100%; /* Force the input to be 100% of its parent's width */
+  box-sizing: border-box; /* Ensures padding and border are included in the width, not added on top */
+}
